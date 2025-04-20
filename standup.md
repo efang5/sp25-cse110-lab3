@@ -18,4 +18,5 @@
 
 ## Goals
 |Participants|Priorities since we last met|Priorities until we meet again|
+|------------|----------------------------|------------------------------|
 |Participant A|what to learn from last meeting|what to learn for next meeting|
