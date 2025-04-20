@@ -10,7 +10,7 @@
 
 ## Meeting Type
 
-<p>Check-in, review, other purpose</p>
+<p>weekly checkin</p>
 
 ## Materials
 
