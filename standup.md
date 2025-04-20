@@ -29,4 +29,4 @@
 
 ## Action Items
 <p>add your action items</p>
-- [x] type your action and assign
+ - [x] type your action and assign
