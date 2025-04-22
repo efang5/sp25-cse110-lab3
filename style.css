@@ -1,0 +1,132 @@
+/*background for body*/
+body {
+  background-color: var(--fake-color, rgb(255,255,0));
+}
+
+#label{
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+}
+  
+h1 {
+  color: hsl(110, 100, 50);
+  text-align: center;
+  text-decoration: underline;
+  margin: auto;
+  position: static;
+}
+
+h2, h3 {
+  display: none;
+  color: color-mix(in srgb, #FF0000, #00FF00);
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+p {
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10em;
+  margin-left: 20px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  max-width: 20vw;
+  min-width: 100px;
+}
+
+title {
+  color: color(display-p3 1 0.5 0);
+}
+
+div {
+  height: 100px;
+  width: 200px;;
+}
+
+ul [attribute="red"]{
+  color: #FF0000;
+}
+
+.parentG {
+  display: grid;
+}
+
+childG {
+  justify-self: start;
+  align-self: start;
+}
+
+.parentF {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.childF {
+  margin: auto;
+}
+
+img{
+  position: sticky;
+  top: 20px;
+}
+
+button:hover{
+  color: green;
+}
+
+button:active{
+  color: purple;
+}
+
+* {
+  font: roboto;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+div p {
+  background-color: yellow;
+}
+
+div > p {
+  background-color: yellow;
+}
+
+div + p {
+  background-color: yellow;
+}
+
+div ~ p {
+  background-color: yellow;
+}
+
+.blue {
+  color: blue;
+}
+
+div.blue{
+  background-color: yellow;
+  color: blue;
+}
+
+h1:has(+ h3) {
+  margin-bottom: 0;
+}
+
+.parent-rule {
+  color: green;
+  .child-rule {
+    color: red;
+  }
+}
