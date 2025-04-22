@@ -2,10 +2,17 @@
 <html lang="en">
   <head>
     <title>Lab 2 Meeting Notes</title>
+    <meta name="author" content="Ethan Fang">
+     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
-    <h1>Lab 2 Meeting Notes<h1>
+    <header>
+      <h1>Lab 2 Meeting Notes</h1>
       <h3>Date: </h3>
+    </header>
+    <nav>
+      <a href="/Agenda/">Agenda</a>
+    </nav>
     <h2>Checkin</h2>
     <ul>
       <li>Ethan Fang</li>
@@ -14,26 +21,89 @@
       <li>Jane Chang</li>
       <li>Sam Butler</li>
     </ul>
+    <form action="/action_page.php" method="get">
+      <fieldset>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
     <h2>Agenda</h2>
     <h3>New</h3>
-    <ul>
+    <ol>
       <li>Icebreakers</li>
       <li>Assign Roles</li>
-    </ul>
+    </ol>
     <h3>From Last Time</h3>
     <ul>
-      <li>Introduce Yourself</li>
+      <li>Introduce <b>Yourself</b></li>
     </ul>
 
+    <section>
     <h2>Actual Notes</h2>
-    <img
-      src=""
-      alt="Diagram"
-    />
+    <img src="IMG_4830.jpg" alt="Fake Diagram" width="500" height="600">
     <p>
       Some more random notes
     </p>
-    <video controls src=""></video>
-    <audio controls src=""></audio>
+    </section>
+
+    <details>
+      <summary>Binary</summary>
+      <p>base 2 instead of the normal base 10</p>
+    </details>
+    
+    <hr>
+
+    <div>
+      <p>
+        <span style="color:blue">blue</span> <b>random</b> <strong>changes</strong> <i>to</i> <em>meet</em> all the
+        <br>
+        requirements
+      </p>
+    </div>
+      
+  <video  width="500" height="600" autoplay controls>
+    <source src="IMG_4829.mp4" type="video/mp4">
+  </video>
+  <audio controls>
+    <source src="Record%20(online-voice-recorder.com).mp3" type="audio/mpeg">
+  </audio>
+    
+    <hr>
+    
+    <button type="button">Click Me!</button>
+    <hr>
+    <label for="blah">Blah:</label>
+
+    <textarea id="blah" name="blah" rows="4" cols="50">
+    You can put anything you want here, being silly:)
+    </textarea>
+    <hr>
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+
+    <hr>
+    <label for="Closing">Closing:</label>
+  
+    <select name="Closing" id="Closing">
+      <option value="Good">Good</option>
+      <option value="Bad">Bad</option>
+      <option value="Meh">Meh</option>
+      <option value="Why?">Why?</option>
+    </select>
+
+    <footer>
+      <p>Author: Ethan Fang</p>
+    </footer>
   </body>
 </html>
