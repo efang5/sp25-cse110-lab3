@@ -59,6 +59,7 @@ ul [attribute="red"]{
 .childG {
   justify-self: start;
   align-self: start;
+  grid-column: <start-line>;
 }
 
 .parentF {
