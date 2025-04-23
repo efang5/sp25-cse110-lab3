@@ -130,7 +130,7 @@ div p {
 }
 
 div > p {
-  color: pink;
+  color: orange;
 }
 
 div + p {
