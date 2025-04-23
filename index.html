@@ -7,29 +7,20 @@
   </head>
   <body>
     <header>
-      <h1>Lab 2 Meeting Notes</h1>
+      <h1 id="label">Lab 2 Meeting Notes</h1>
       <h3>Date: </h3>
     </header>
     <nav>
       <a href="/Agenda/">Agenda</a>
     </nav>
     <h2>Checkin</h2>
-    <ul>
+    <ul attribute="red">
       <li>Ethan Fang</li>
       <li>Joe Alderon</li>
       <li>Max Hugo</li>
       <li>Jane Chang</li>
       <li>Sam Butler</li>
     </ul>
-    <form action="/action_page.php" method="get">
-      <fieldset>
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-      </fieldset>
-    </form>
     <h2>Agenda</h2>
     <h3>New</h3>
     <ol>
@@ -81,26 +72,36 @@
     You can put anything you want here, being silly:)
     </textarea>
     <hr>
-    <label for="browser">Choose your browser from the list:</label>
-    <input list="browsers" name="browser" id="browser">
 
-    <datalist id="browsers">
-      <option value="Edge">
-      <option value="Firefox">
-      <option value="Chrome">
-      <option value="Opera">
-      <option value="Safari">
-    </datalist>
+    <form action="/action_page.php" method="get">
+      <fieldset>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    
+      <label for="browser">Choose your browser from the list:</label>
+      <input list="browsers" name="browser" id="browser">
 
-    <hr>
-    <label for="Closing">Closing:</label>
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+
+      <label for="Closing">Closing:</label>
   
-    <select name="Closing" id="Closing">
-      <option value="Good">Good</option>
-      <option value="Bad">Bad</option>
-      <option value="Meh">Meh</option>
-      <option value="Why?">Why?</option>
-    </select>
+      <select name="Closing" id="Closing">
+        <option value="Good">Good</option>
+        <option value="Bad">Bad</option>
+        <option value="Meh">Meh</option>
+        <option value="Why?">Why?</option>
+      </select>
+    </form>
 
     <footer>
       <p>Author: Ethan Fang</p>
