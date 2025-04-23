@@ -19,7 +19,7 @@ h1 {
 }
 
 h2, h3 {
-  display: none;
+  display: block;
   color: color-mix(srgb, #FF0000, #00FF00);
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
