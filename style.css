@@ -56,7 +56,6 @@ ul [attribute="red"]{
   display: grid;
   grid-template-rows: auto auto auto auto;
   margin:auto;
-  padding:auto;
 }
 
 .childG {
