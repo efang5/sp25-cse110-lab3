@@ -55,13 +55,27 @@ ul [attribute="red"]{
 .parentG {
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto 1fr auto;
+  arid-template-areas: "a" "b" "c";
   margin:auto;
 }
 
-.childG {
+.childG1 {
   justify-self: start;
   align-self: start;
+  grid-area: a;
+}
+
+.childG2 {
+  justify-self: start;
+  align-self: start;
+  grid-area: b;
+}
+
+.childG3 {
+  justify-self: start;
+  align-self: start;
+  grid-area: c;
 }
 
 .parentF {
