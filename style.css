@@ -126,7 +126,7 @@ h1:has(+ h3) {
 }
 
 .parent-rule {
-  color: green;
+  background-color: green;
   .child-rule {
     color: red;
   }
