@@ -86,7 +86,18 @@ ul [attribute="red"]{
   justify-content: space-evenly;
 }
 
-.childF {
+.childF1 {
+  order: 1;
+  margin: auto;
+}
+
+.childF2 {
+  order: 2;
+  margin: auto;
+}
+
+.childF3 {
+  order: 3;
   margin: auto;
 }
 
