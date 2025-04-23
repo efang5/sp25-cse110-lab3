@@ -136,6 +136,6 @@ label {
   /* styles for label */
   input {
     /* styles for input in a label  */
-    border: blue 2px dashed;
+    border: blue;
   }
 }
