@@ -56,7 +56,7 @@ ul [attribute="red"]{
   box-sizing: border-box;
   display: grid;
   grid-template-columns: auto 1fr auto;
-  arid-template-areas: "a" "b" "c";
+  grid-template-areas: "a" "b" "c";
   margin:auto;
 }
 
