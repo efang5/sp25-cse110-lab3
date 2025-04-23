@@ -75,7 +75,7 @@ ul [attribute="red"]{
 
 img{
   position: sticky;
-  top: auto;
+  right: 10px;
   margin: auto;
 }
 
