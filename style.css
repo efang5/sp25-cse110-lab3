@@ -126,7 +126,7 @@ button:active{
 }
 
 div p {
-  background-color: red;
+  color: green;
 }
 
 div > p {
