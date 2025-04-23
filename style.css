@@ -98,19 +98,19 @@ button:active{
 }
 
 div p {
-  background-color: yellow;
+  background-color: red;
 }
 
 div > p {
-  background-color: yellow;
+  background-color: orange;
 }
 
 div + p {
-  background-color: yellow;
+  background-color: blue;
 }
 
 div ~ p {
-  background-color: yellow;
+  background-color: purple;
 }
 
 .blue {
