@@ -75,7 +75,7 @@ ul [attribute="red"]{
 
 img{
   position: sticky;
-  top: 20px;
+  top: auto;
 }
 
 button:hover{
