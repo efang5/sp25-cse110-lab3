@@ -120,7 +120,7 @@ div ~ p {
 
 div.blue{
   /* styles for div that are class blue  */
-  background-color: yellow;
+  background-color: green;
   color: blue;
 }
 
