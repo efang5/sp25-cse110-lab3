@@ -11,7 +11,7 @@ body {
 }
   
 h1 {
-  color: hsl(110, 100, 50);
+  color: hsl(110, 100%, 50%);
   text-align: center;
   text-decoration: underline;
   margin: auto;
@@ -54,12 +54,12 @@ ul [attribute="red"]{
 
 .parentG {
   display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
 .childG {
   justify-self: start;
   align-self: start;
-  grid-column: <start-line>;
 }
 
 .parentF {
@@ -87,7 +87,7 @@ button:active{
 }
 
 * {
-  font: roboto;
+  font-family: roboto;
 }
 
 @media screen and (min-width: 480px) {
@@ -113,21 +113,29 @@ div ~ p {
 }
 
 .blue {
+  /* styles for class blue  */
   color: blue;
 }
 
 div.blue{
+  /* styles for div that are class blue  */
   background-color: yellow;
   color: blue;
 }
 
 h1:has(+ h3) {
+  /* styles for h3 following h1  */
   margin-bottom: 0;
 }
 
-.parent-rule {
-  background-color: green;
-  .child-rule {
-    color: red;
+input {
+  /* styles for input not in a label  */
+  border: tomato 2px solid;
+}
+label {
+  /* styles for label */
+  input {
+    /* styles for input in a label  */
+    border: blue 2px dashed;
   }
 }
