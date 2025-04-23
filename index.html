@@ -7,29 +7,20 @@
   </head>
   <body>
     <header>
-      <h1>Lab 2 Meeting Notes</h1>
+      <h1 id="label">Lab 2 Meeting Notes</h1>
       <h3>Date: </h3>
     </header>
     <nav>
       <a href="/Agenda/">Agenda</a>
     </nav>
     <h2>Checkin</h2>
-    <ul>
+    <ul attribute="red">
       <li>Ethan Fang</li>
       <li>Joe Alderon</li>
       <li>Max Hugo</li>
       <li>Jane Chang</li>
       <li>Sam Butler</li>
     </ul>
-    <form action="/action_page.php" method="get">
-      <fieldset>
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-      </fieldset>
-    </form>
     <h2>Agenda</h2>
     <h3>New</h3>
     <ol>
@@ -50,26 +41,26 @@
     </section>
 
     <details>
-      <summary>Binary</summary>
+      <summary class="blue">Binary</summary>
       <p>base 2 instead of the normal base 10</p>
     </details>
     
     <hr>
 
-    <div>
+    <div class="blue">
       <p>
-        <span style="color:blue">blue</span> <b>random</b> <strong>changes</strong> <i>to</i> <em>meet</em> all the
+        <span>blue</span> <b>random</b> <strong>changes</strong> <i>to</i> <em>meet</em> all the
         <br>
         requirements
       </p>
     </div>
       
-  <video  width="500" height="600" autoplay controls>
-    <source src="IMG_4829.mp4" type="video/mp4">
-  </video>
-  <audio controls>
-    <source src="Record%20(online-voice-recorder.com).mp3" type="audio/mpeg">
-  </audio>
+    <video  width="500" height="600" autoplay controls>
+      <source src="IMG_4829.mp4" type="video/mp4">
+    </video>
+    <audio controls>
+      <source src="Record%20(online-voice-recorder.com).mp3" type="audio/mpeg">
+    </audio>
     
     <hr>
     
@@ -81,26 +72,52 @@
     You can put anything you want here, being silly:)
     </textarea>
     <hr>
-    <label for="browser">Choose your browser from the list:</label>
-    <input list="browsers" name="browser" id="browser">
 
-    <datalist id="browsers">
-      <option value="Edge">
-      <option value="Firefox">
-      <option value="Chrome">
-      <option value="Opera">
-      <option value="Safari">
-    </datalist>
+    <div class="parentG">
+      <p class="childG">hello</p>
+      <p class="childG">grid</p>
+      <p class="childG">requirement</p>
+    </div>
 
-    <hr>
-    <label for="Closing">Closing:</label>
+    <div class="parentF">
+      <p class="childF">hello</p>
+      <p class="childF">flex</p>
+      <p class="childF">test</p>
+    </div>
+
+    <div class="parent-rule">
+      <p class="child-rule">hello</p>
+    </div>
+
+    <form action="/action_page.php" method="get">
+      <fieldset>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    
+      <label for="browser">Choose your browser from the list:</label>
+      <input list="browsers" name="browser" id="browser">
+
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+
+      <label for="Closing">Closing:</label>
   
-    <select name="Closing" id="Closing">
-      <option value="Good">Good</option>
-      <option value="Bad">Bad</option>
-      <option value="Meh">Meh</option>
-      <option value="Why?">Why?</option>
-    </select>
+      <select name="Closing" id="Closing">
+        <option value="Good">Good</option>
+        <option value="Bad">Bad</option>
+        <option value="Meh">Meh</option>
+        <option value="Why?">Why?</option>
+      </select>
+    </form>
 
     <footer>
       <p>Author: Ethan Fang</p>
