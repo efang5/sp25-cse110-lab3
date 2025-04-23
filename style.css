@@ -130,7 +130,7 @@ div p {
 }
 
 div > p {
-  background-color: orange;
+  color: pink;
 }
 
 div + p {
